@@ -1,0 +1,51 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: #1096b8;
+  padding: 20px;
+  color: rgb(8, 8, 8);
+}
+
+.portfolio {
+  padding: 50px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #3a85db6b;
+  border: 1px solid #bfc4ec;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.App-footer {
+  background-color: #3e4452;
+  padding: 20px;
+  color: rgb(233, 232, 232);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
